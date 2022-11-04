@@ -1,0 +1,1852 @@
+*{cursor: default;}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    width: 100%;
+    height: 70px;
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+#logo{
+    height: 100%;
+    width: 150px;
+    margin-left: 50px;
+    
+}
+
+#rigel{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+
+#headercontent{
+    height: 100%;
+    width: 450px;
+    margin-left: auto;
+    margin-right: 100px;
+    display: inline-flex;
+}
+
+.contents{
+    height: 100%;
+    width: 150px;
+}
+
+#contenttext{
+    font-size: 19px;
+    font-family: "Poppins";
+    position: relative;
+    top: 19px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#contenttext:hover{
+    color: rgb(22, 133, 243);
+}
+
+#scribbleX{
+    height: 70%;
+    width: 100%;
+    position: relative;
+    top: 10px;
+    background: rgb(31, 33, 33);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#scribbleX:hover{
+    background: rgb(50, 50, 50);
+}
+
+
+
+#scribbletext{
+    font-size: 20px;
+    color: white;
+    font-family: "Poppins";
+    position: relative;
+    top: 10px;
+    left: 25px;
+    cursor: pointer;
+}
+
+#rigelX{
+    height: 70%;
+    width: 100%;
+    position: relative;
+    top: 10px;
+    background:  rgb(22, 133, 243);
+    cursor: pointer;
+    margin-left: 10px;
+   
+}
+
+#rigeltext{
+    font-size: 17px;
+    color: white;
+    font-family: "Poppins";
+    position: relative;
+    top: 11px;
+    left: 10px;
+    cursor: pointer;
+}
+
+#madeinrigel{
+    margin-right: 10px;
+}
+
+#discription{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 60px;
+    display: inline-flex;
+}
+
+#dsctextcont{
+    height: 100%;
+    width: 65%;   
+}
+
+#text{
+    height: 65%;
+    width: 80%;
+    /* background: lightcoral; */
+    position: relative;
+    margin-left: 90px;
+    /* margin-top: 100px; */
+    top: 95px;
+}
+
+#dsctext{
+    font-size: 65px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Poppins';
+    /* margin-left: 70px;*/
+}
+
+#extracont{
+    height: 210px;
+    width: 360px;
+    
+    position: relative;
+    margin-bottom: 130px;
+    margin-top: auto;
+}
+
+#firstline{
+    height: 70%;
+    width: 100%;
+}
+
+#secondline{
+    height: 30%;
+    width: 100%;
+}
+
+#rigelX2{
+    height: 80%;
+    width: 48%;
+    position: relative;
+    top: 10px;
+    background:  rgb(22, 133, 243);
+    cursor: pointer; 
+}
+
+#fistlinetext{
+    font-size: 19px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    position: relative;
+    top: 52px;
+}
+
+#rigeltext2{
+    font-size: 20px;
+    color: white;
+    font-family: "Poppins";
+    position: relative;
+    top: 11px;
+    left: 10px;
+    cursor: pointer;
+}
+
+#powered{
+    height: 26px;
+    width: 129px;
+    position: fixed;
+    /* margin-top: auto; */
+    /* margin-bottom: 7px; */
+    bottom: 20px;
+    /* border: 0.5px solid; */
+    right: 15px;
+    /* float: right; */
+    border-radius: 5px;
+    z-index: 1000000;
+    background: black;
+}
+
+#poweredtext{
+    font-size: 11px;
+    font-family: 'Poppins';
+    color: white;
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+#anchor{
+    color: red;
+    cursor: pointer;
+}
+
+.anchors{
+    text-decoration: none;
+}
+
+#midcontainer{
+    width: 100%;
+    height: 700px;
+}
+
+#editorimage{
+    width: 85%;
+    height: 90%;
+    position: relative;
+    top: 49.3%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 40px;
+}
+
+  
+
+#whyrigel{
+    width: 100%;
+    height: 400px;
+    background: black;
+    margin-top: 100px;
+}
+
+#heading{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+#aboutrigel{
+    width: 100%;
+    height: 283px;
+    position: relative;
+    top: 15px;
+}
+
+
+
+#maintext{
+    font-size: 70px;
+    font-family: 'Poppins';
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 50px;
+}
+
+#aboutcnt{
+    height: 80%;
+    width: 80%;
+    margin-left: 150px;
+  
+}
+
+#aboutcnttext{
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: whitesmoke;
+}
+
+
+#extra{
+    width: 100%;
+    height: 2763px;
+    background: white;
+}
+
+.features{
+    width: 100%;
+    height: 170px;
+    
+}
+
+#stylecnt{
+    position: relative;
+    top: 100px;
+   
+}
+
+#feature1{
+    height: 100%;
+    width: 70%;
+    margin-left: 90px;
+}
+
+.featurestext{
+    font-size: 55px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+#featurecnt{
+    height: 685px;
+    width:100%;
+    position: relative;
+    top: 160px;
+    display: inline-flex;
+}
+
+.featureimagecnt{
+    height: 680px;
+    width: 700px;
+    background: rgb(175 210 239);
+    
+}
+
+#stylemgr{
+    height: 550px;
+    width: 235px;
+    position: relative;
+    left: 50px;
+    top: 40px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+}
+
+#stylemgr2{
+    height: 550px;
+    width: 235px;
+    position: relative;
+    left: 100px;
+    top: 95px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+}
+
+#featuredscnt{
+    height: 200px;
+    width: 600px;
+    
+    position: relative;
+    margin-left: 100px;
+    top: 220px;
+}
+
+#dscnttext{
+    font-size: 23px;
+    font-family: 'Poppins';
+    font-weight: lighter;
+}
+
+#line{
+    width: 100%;
+    height: 0.1px;
+    background: #e2dfdf;
+    position: relative;
+    top: 250px;
+}
+
+#codeheadcnt{
+    position: relative;
+    margin-top: 300px;    
+}
+
+#codecnt{
+    height: 685px;
+    width:100%;
+    position: relative;
+    top: 60px;
+    display: inline-flex;
+}
+
+#codeimagecnt{
+    height: 680px;
+    width: 700px;
+    background: rgb(220 212 251);
+    margin-left: auto;}
+
+#console{
+    position: absolute;
+    right: 115px;
+    top: 80px;
+    height: 530px;
+    width: 724px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+}
+
+#consoledscnt{
+    height: 240px;
+    width: 520px;
+    position: absolute;
+    /* display: block; */
+    /* float: left; */
+    top: 220px;
+    margin-right: auto;
+    margin-left: 60px;
+}
+
+#line2{
+    width: 100%;
+    height: 0.1px;
+    background: #e2dfdf;
+    position: relative;
+    top: 145px;
+}
+
+#darkcnt{
+    height: 600px;
+    width: 100%;
+    background: #131313;
+    position: relative;
+    top: 150px;
+    border-bottom: 0.1px solid rgb(27 27 27);
+}
+
+#darktext{
+    color: white;
+}
+
+
+#darktextcnt{
+    position: relative;
+    top: 30px;
+}
+
+#darkMode{
+    height: 392px;
+    width: 700px;
+    position: absolute;
+    box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    right: 50px;
+    top: 60px;
+}
+
+#darkdscnt{
+    height: 180px;
+    width: 700px;
+    position: relative;
+    left: 90px;
+    top: 60px;
+}
+
+#dark1{
+    height: 70%;
+    width: 90%;
+}
+
+#dark2{
+    height: 30%;
+    width: 100%;
+}
+
+#darkdsctext{
+    font-family: 'Poppins';
+    font-size: 17px;
+    color: white;
+}
+
+#rigelX3{
+    height: 80%;
+    width: 25%;
+    position: relative;
+    top: 15px;
+    background: rgb(22, 133, 243);
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+#rigeltext3{
+    font-size: 18px;
+    color: white;
+    font-family: "Poppins";
+    position: relative;
+    top: 8px;
+    left: 17px;
+    cursor: pointer;
+}
+
+#footer{
+    width: 100%;
+    height: 55px;
+    background: black;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.footeroptions{
+    height: 100%;
+    width: 200px;
+}
+
+.at{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    /* position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+} 
+
+.at:hover{
+    color: rgb(22, 133, 243);
+}
+
+
+.newtags{
+    position: relative;
+    top: 17px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1440px){
+
+    
+
+    #extra {
+        width: 100%;
+        height: 2501px;
+        background: white;
+    }
+    #aboutcnttext {
+        font-size: 17.5px;
+        font-family: 'Poppins';
+        color: whitesmoke;
+    }
+
+    .featurestext {
+        font-size: 43px;
+        font-family: 'Poppins';
+        font-weight: bold;
+    }
+
+    #featurecnt {
+        height: 685px;
+        width: 100%;
+        position: relative;
+        top: 110px;
+        display: inline-flex;
+    }
+
+    #line{
+        top: 130px;
+    }
+
+    .featureimagecnt {
+        height: 630px;
+        width: 700px;
+        background: rgb(175 210 239);
+    }
+
+    #dscnttext {
+        font-size: 20px;
+        font-family: 'Poppins';
+        font-weight: lighter;
+        
+    }
+
+    #stylemgr {
+        height: 500px;
+        width: 185px;
+        position: relative;
+        left: 50px;
+        top: 40px;
+        box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+        border-radius: 5px;
+    }
+
+    #stylemgr2 {
+        height: 500px;
+        width: 185px;
+        position: relative;
+        left: 100px;
+        top: 95px;
+        box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+        border-radius: 5px;
+    }
+
+    #console {
+        position: absolute;
+        right: 85px;
+        top: 65px;
+        height: 410px;
+        width: 574px;
+        box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+        border-radius: 5px;
+    }
+
+    #codeimagecnt {
+        height: 530px;
+        width: 570px;
+        background: rgb(220 212 251);
+        margin-left: auto;
+    }
+
+    #consoledscnt {
+        height: 240px;
+        width: 430px;
+        position: absolute;
+        /* display: block; */
+        /* float: left; */
+        top: 220px;
+        margin-right: auto;
+        margin-left: 90px;
+    }
+
+    #codeheadcnt {
+        position: relative;
+        margin-top: 210px;
+    }
+
+    #dscnttext {
+        font-size: 20px;
+        font-family: 'Poppins';
+        font-weight: lighter;
+    }
+
+    #featuredscnt {
+        margin-left: 85px !important;
+    }
+
+    #darkcnt{
+        top: -30px;
+    }
+    
+    #darkMode {
+        height: 312px;
+        width: 600px;
+        position: absolute;
+        box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+        border-radius: 5px;
+        right: 50px;
+        top: 120px;
+    }
+
+    #darkdsctext {
+        font-family: 'Poppins';
+        font-size: 15px;
+        color: white;
+    }
+
+    #dark1 {
+        height: 90%;
+        width: 54%;
+    }
+
+    #stylecnt {
+        position: relative;
+        top: 70px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1520px){
+    #editorimage{
+        margin-top: 41px;
+    }
+    #dsctext {
+        font-size: 55px;
+    }
+
+    #extracont {
+        height: 210px;
+        width: 360px;
+        position: relative;
+        margin-bottom: 170px;
+        margin-top: auto;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1290px){
+    #dsctext {
+        font-size: 48px !important;
+    }
+
+    #extracont {
+       
+        margin-bottom: 205px !important;
+   
+    }
+}
+
+
+
+@media screen and (max-width: 1129px){
+    #midcontainer{
+        display: none;
+    }
+
+    #discription {
+        width: 100%;
+        height: 700px;
+        position: relative;
+        top: 60px;
+        display: block;
+    }
+
+    #dsctextcont {
+        height: 50%;
+        width: 100%;
+    }
+
+    #text {
+        height: 72%;
+        width: 90%;
+        /* background: lightcoral; */
+        position: relative;
+        margin-left: 90px;
+        /* margin-top: 100px; */
+        top: 70px;
+    }
+
+    #dsctext {
+        font-size: 60px;
+    }
+
+    #extracont {
+        height: 50% !important;
+        width: 100% !important;
+        /* position: relative; */
+        /* margin-bottom: 115px; */
+        /* margin-top: auto; */
+    }
+
+    #fistlinetext {
+        font-size: 33px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        position: relative;
+        top: 52px;
+        left: 95px;
+    }
+
+    #rigelX2 {
+        height: 60%;
+        width: 213px;
+        position: relative;
+        top: 10px;
+        background: rgb(22, 133, 243);
+        cursor: pointer;
+        left: 97px;
+    }
+
+    #rigeltext2 {
+        font-size: 25px;
+        color: white;
+        font-family: "Poppins";
+        position: relative;
+        top: 11px;
+        left: 10px;
+        cursor: pointer;
+    }
+
+    #heading {
+        width: 100%;
+        height: 95px;
+        text-align: center;
+        position: relative;
+        top: 5px;
+    }
+
+    #aboutrigel {
+        width: 100%;
+        height: 283px;
+        position: relative;
+        top: 15px;
+    }
+
+    #aboutcnt {
+        height: 80%;
+        width: 80%;
+        margin-left: 105px;
+    }
+
+    #aboutcnttext {
+        font-size: 15.5px;
+        font-family: 'Poppins';
+        color: whitesmoke;
+    }
+
+    #feature1 {
+        height: 100%;
+        width: 90%;
+        margin-left: 45px;
+    }
+
+    .featureimagecnt {
+        width: 100% !important;
+    }
+
+    #featuredscnt {
+        height: 200px;
+        width: 470px;
+        position: absolute;
+        margin-left: 535px !important;
+        /* margin-right: auto; */
+        top: 220px;
+    }
+
+    #dscnttext {
+        font-size: 16px !important;
+    }
+
+    #codeimagecnt {
+        height: 500px;
+        width: 100% !important;
+    }
+
+    #codecnt {
+        top: 25px !important;
+    }
+
+    #console {
+        position: absolute;
+        right: 32px !important;
+        top: 65px !important;
+        height: 360px !important;
+        width: 500px !important;
+        
+    }
+
+    #consoledscnt {
+        top: 160px !important;
+        margin-left: 50px !important;
+    }
+
+    #codeheadcnt {
+        position: relative;
+        margin-top: 180px !important;
+    }
+
+    #darkMode {
+        height: 300px !important;
+        width: 515px !important;
+        position: absolute;
+       
+        right: 27px !important;
+        top: 120px !important;
+    }
+
+    #darkcnt {
+        top: -160px !important;
+    }
+    
+
+    #darkdscnt {
+        left: 50px !important;
+    }
+
+    #extra {
+        height: 2341px !important;
+    }
+
+    #powered {
+        display: none;
+    }
+
+    
+
+    #footer {
+        height: 284px !important;
+        flex-direction: column  !important;
+    }
+
+    .footeroptions {
+        margin-left: 15px !important;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1119px){
+    #headercontent {
+        margin-right: 35px;
+    }
+
+    #logo {
+        margin-left: 15px;
+    }
+
+    #text {
+        margin-left: 35px;
+    }
+
+
+    #whyrigel {
+    width: 100%;
+    height: 500px;
+    background: black;
+    margin-top: 100px;
+    }
+
+    #aboutrigel {
+        top: 30px !important;
+
+    }
+
+    #maintext {
+        margin-left: 30px;
+    }
+
+    #aboutcnt {
+        margin-left: 80px !important;
+    }
+
+    #aboutcnttext {
+        font-size: 16.5px;
+    }
+
+    #feature1 {
+        width: 97% !important;
+        margin-left: 25px !important;
+    }
+
+    .featurestext {
+        font-size: 37px;
+    }
+
+    #stylecnt {
+        top: 40px !important;
+    }
+
+    .features {
+        width: 100%;
+        height: 115px;
+    }
+
+    #stylemgr2 {
+        left: 160px !important;
+        top: 100px !important;
+        box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+        border-radius: 5px;
+        width: 190px;
+    }
+
+    #stylemgr {
+        position: absolute;
+        left: 30px !important;
+        top: 30px !important;
+        box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+        border-radius: 5px;
+        width: 190px;
+    }
+
+    #featuredscnt {
+        margin-left: 470px !important;
+    }
+
+    #dscnttext {
+        font-size: 16px !important;
+    }
+
+    #featurecnt {
+        top: 90px !important;
+    }
+
+    #featuredscnt {
+        height: 200px;
+        width: 390px !important;
+    }
+
+    #line {
+        top: 105px !important;
+    }
+
+    #codeheadcnt {
+        position: relative;
+        margin-top: 145px !important;
+    }
+
+    #consoledscnt {
+        top: 348px !important;
+        margin-left: 50px !important;
+    }
+
+    #console {
+        position: absolute;
+        right: 32px !important;
+        top: -40px !important;
+        height: 360px !important;
+        width: 500px !important;
+    }
+
+    #consoledscnt {
+        height: 240px;
+        width: 570px !important;
+    }
+
+    #dscnttext {
+        font-size: 20px !important;
+    }
+
+    #darktextcnt {
+        height: 70px !important;
+    }
+
+    #darkMode {
+        height: 300px !important;
+        width: 515px !important;
+        position: absolute;
+        right: 35px !important;
+        top: 235px !important;
+    }
+
+    #darkdscnt {
+        left: 25px !important;
+    }
+
+    #darkdscnt {
+        width: 472px !important;
+    }
+
+    #rigeltext3 {
+        left: 6px !important;
+    }
+
+    #rigelX3 {
+        height: 80%;
+        width: 150px !important;
+    }
+
+    #darkMode {
+        height: 270px !important;
+        width: 485px !important;
+    }
+
+    #dark1 {
+        height: 90%;
+        width: 100% !important;
+    }
+
+    #extra {
+        height: 2195px !important;
+    }
+
+    #fistlinetext {
+        left: 40px !important;
+    }
+
+    #rigelX2 {
+        left: 40px !important;
+    }
+
+    #powered {
+        display: none;
+    }
+
+    
+
+    #footer {
+        height: 284px !important;
+        flex-direction: column  !important;
+    }
+
+    .footeroptions {
+        margin-left: 15px !important;
+    }
+
+}
+
+
+@media screen and (max-width: 878px){
+    #featuredscnt {
+        height: 200px;
+        width: 345px !important;
+        margin-left: 420px !important;
+    }
+
+    #feature1 {
+        width: 97% !important;
+        margin-left: 20px !important;
+    }
+
+    #console {
+        top: -30px !important;
+    }
+
+    #darkMode {
+        height: 275px !important;
+        width: 425px !important;
+        right: 30px !important;
+    }
+
+
+}
+
+
+@media screen and (max-width: 785px){
+
+    #featuredscnt {
+        height: 200px;
+        width: 275px !important;
+        margin-left: 374px !important;
+    }
+}
+
+@media screen and (max-width: 670px){
+
+    #container {
+        height: 100%;
+        width: 100% !important;
+    }
+
+    .contents {
+        height: 100%;
+        width: 110px !important;
+    }
+
+    .contents{
+        display: none;
+    }
+
+    #discription {
+        height: 500px !important;
+    }
+
+    #text {
+        margin-left: 20px !important;
+    }
+
+    #fistlinetext {
+        top: 0px !important;
+        margin-right: 5px !important;
+        
+        left: 20px !important;
+        font-size: 28px !important;
+    }
+
+    #madeinrigel {
+        /* margin-right: 106px; */
+        display: block;
+        position: relative;
+        left: 185px;
+        top: -30px;
+    }
+
+    #contenttext {
+        display: none;
+    }
+
+    #rigel {
+        top: 50% !important;
+    left: 205% !important;
+    }
+
+    #rigelX2 {
+        left: 20px !important;
+        margin-top: 5px !important;
+    }
+
+    #rigeltext2 {
+        top: 5px !important;
+    }
+    
+
+    #discription {
+        top: -40px !important;
+    }
+
+    #dsctext {
+        font-size: 30px !important;
+    }
+
+    #whyrigel {
+        margin-top: 10px !important;
+        height: 470px !important;
+    }
+
+    #maintext {
+        margin-left: 10px !important;
+        font-size: 55px !important;
+    }
+
+    #aboutcnt {
+        margin-left: 25px !important;
+        width: 90% !important;
+    }
+
+    .featurestext {
+        font-size: 25px !important;
+    }
+
+    #stylecnt {
+        top: 25px !important;
+    }
+
+    #feature1 {
+        width: 100% !important;
+        margin-left: 15px !important;
+    }
+
+    .featurestext {
+        font-size: 25px;
+    }
+
+    #featurecnt {
+        top: 45px !important;
+    }
+
+    #line {
+        top: 20px !important;
+    }
+
+    #feature1 {
+        width: 97% !important;
+        margin-left: 10px !important;
+    }
+
+    #codeheadcnt {
+        position: relative;
+        margin-top: 50px !important;
+    }
+
+    #console {
+        position: absolute;
+        right: 32px !important;
+        top: -40px !important;
+        height: 275px !important;
+        width: 350px !important;
+    }
+
+    #consoledscnt {
+        height: 240px;
+        width: 395px !important;
+        /* display: none; */
+        top: 270px !important;
+        margin-left: 15px !important;
+    }
+
+    #darktextcnt {
+        height: 40px !important;
+    }
+
+    #dark1 {
+        height: 65%;
+        width: 100% !important;
+    }
+
+    #darkdscnt {
+        left: 9px !important;
+    }
+
+    #rigelX3 {
+        top: 20px !important;
+    }
+
+    #darkMode {
+        height: 215px !important;
+        width: 390px !important;
+        position: absolute;
+        right: 60px !important;
+        top: 300px !important;
+    }
+
+    #darkdscnt {
+        width: 400px !important;
+    }
+
+    #extra {
+        height: 2051px !important;
+    }
+
+    #featuredscnt {
+        height: 200px;
+        width: 263px !important;
+        margin-left: 360px !important;
+    }
+
+    #powered {
+        display: none;
+    }
+
+    #dscnttext {
+        font-size: 17px !important;
+    }
+
+    #aboutcnttext {
+        font-size: 15.5px;
+    }
+
+    
+
+    #footer {
+        height: 284px !important;
+        flex-direction: column  !important;
+    }
+
+    .footeroptions {
+        margin-left: 15px !important;
+    }
+
+    #firstline {
+        height: 70%;
+        width: 88% !important;
+    }
+
+    #stylemgr {
+        position: absolute;
+        left: 30px !important;
+        top: 30px !important;
+        box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+        border-radius: 5px;
+        width: 170px;
+        height: 420px;
+    }
+
+    #stylemgr2 {
+        left: 160px !important;
+        top: 100px !important;
+        box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+        border-radius: 5px;
+        width: 170px;
+        height: 420px;
+    }
+
+    #featuredscnt {
+        height: 200px;
+        width: 240px !important;
+        margin-left: 350px !important;
+    }
+
+    .featureimagecnt {
+        height: 600px;
+    }
+
+    #darkcnt {
+        top: -210px !important;
+    }
+
+    #codeimagecnt {
+        height: 450px;
+        width: 100% !important;
+    }
+
+}
+
+
+@media screen and (max-width: 611px){
+
+    #featuredscnt {
+        display: none;
+    }
+
+    #stylemgr {
+        position: absolute;
+        left: 30px !important;
+        top: 30px !important;
+        box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+        border-radius: 5px;
+        width: 190px;
+        height: 440px;
+    }
+
+    #stylemgr2 {
+        left: 240px !important;
+        top: 100px !important;
+        box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+        border-radius: 5px;
+        width: 190px;
+        height: 440px;
+    }
+
+    #whyrigel {
+        margin-top: 10px !important;
+        height: 530px !important;
+    }
+
+    #firstline {
+        height: 70%;
+        width: 90% !important;
+    }
+
+    #darkMode {
+        right: 40px !important;
+    }
+
+}
+
+
+@media screen and (max-width: 460px){
+
+    #dsctext {
+        font-size: 27px !important;
+    }
+
+    #fistlinetext {
+        font-size: 24px !important;
+    }
+
+    #whyrigel {
+        margin-top: 10px !important;
+        height: 640px !important;
+    }
+
+    #logo {
+        margin-left: 13px !important;
+        width: 160px !important;
+    }
+
+    #madeinrigel {
+        margin-right: 10px !important;
+        left: -85px !important;
+    }
+
+    #contenttext {
+        display: block;
+        color: rgb(22, 133, 243);
+        font-size: 15px !important;
+    }
+
+    #stylemgr2 {
+        left: 145px !important;
+        top: 125px !important;
+        width: 170px;
+        height: 420px;
+    }
+
+    #stylemgr {
+        position: absolute;
+        left: 30px !important;
+        top: 30px !important;
+        box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+        border-radius: 5px;
+        width: 170px;
+        height: 420px;
+    }
+
+    #console {
+        position: absolute;
+        right: 12px !important;
+        top: -40px !important;
+        height: 270px !important;
+        width: 340px !important;
+    }
+
+    #consoledscnt {
+        height: 240px;
+        width: 352px !important;
+     
+    }
+
+    #dark1 {
+        height: 65%;
+        width: 90% !important;
+    }
+
+    #rigelX3 {
+        top: 55px !important;
+    }
+
+    #darkMode {
+        height: 230px !important;
+        width: 330px !important;
+        position: absolute;
+        right: 26px !important;
+        top: 310px !important;
+    }
+
+    #container {
+        overflow-x: clip;
+    }
+
+    
+
+
+
+    /* #container {
+        height: 100%;
+        width: 100% !important;
+    }
+
+    .contents {
+        height: 100%;
+        width: 110px !important;
+    }
+
+    .contents{
+        display: none;
+    }
+
+    #discription {
+        height: 500px !important;
+    }
+
+    #text {
+        margin-left: 20px !important;
+    }
+
+    #fistlinetext {
+        top: 0px !important;
+        margin-right: 5px !important;
+        
+        left: 20px !important;
+        font-size: 28px !important;
+    }
+
+    #madeinrigel {
+        /* margin-right: 106px; 
+        display: block;
+        position: relative;
+        left: 185px;
+        top: -30px;
+    }
+
+    #contenttext {
+        font-size: 17px;
+        font-family: "Poppins";
+        position: relative;
+        top: 25px;
+        font-weight: 600;
+        cursor: pointer;
+        color: rgb(22, 133, 243);
+        display: block;
+    }
+
+    #rigel {
+        top: 50% !important;
+    left: 205% !important;
+    }
+
+    #rigelX2 {
+        left: 20px !important;
+        margin-top: 35px !important;
+    }
+
+    #rigeltext2 {
+        top: 5px !important;
+    }
+    
+
+    #discription {
+        top: -40px !important;
+    }
+
+    #dsctext {
+        font-size: 30px !important;
+    }
+
+    #whyrigel {
+        margin-top: 10px !important;
+        height: 650px !important;
+    }
+
+    #maintext {
+        margin-left: 10px !important;
+        font-size: 55px !important;
+    }
+
+    #aboutcnt {
+        margin-left: 25px !important;
+        width: 90% !important;
+    }
+
+    .featurestext {
+        font-size: 25px !important;
+    }
+
+    #stylecnt {
+        top: 25px !important;
+    }
+
+    #feature1 {
+        width: 100% !important;
+        margin-left: 15px !important;
+    }
+
+    .featurestext {
+        font-size: 25px;
+    }
+
+    #featurecnt {
+        top: 45px !important;
+    }
+
+    #line {
+        top: 20px !important;
+    }
+
+    #feature1 {
+        width: 97% !important;
+        margin-left: 10px !important;
+    }
+
+    #codeheadcnt {
+        position: relative;
+        margin-top: 50px !important;
+    }
+
+    #console {
+        position: absolute;
+        right: 32px !important;
+        top: -40px !important;
+        height: 275px !important;
+        width: 350px !important;
+    }
+
+    #consoledscnt {
+        height: 240px;
+        width: 395px !important;
+        /* display: none; 
+        top: 270px !important;
+        margin-left: 15px !important;
+    }
+
+    #darktextcnt {
+        height: 40px !important;
+    }
+
+    #dark1 {
+        height: 65%;
+        width: 100% !important;
+    }
+
+    #darkdscnt {
+        left: 9px !important;
+    }
+
+    #rigelX3 {
+        top: 20px !important;
+    }
+
+    #darkMode {
+        height: 215px !important;
+        width: 390px !important;
+        position: absolute;
+        right: 35px !important;
+        top: 300px !important;
+    }
+
+    #darkdscnt {
+        width: 400px !important;
+    }
+
+    #extra {
+        height: 2051px !important;
+    }
+
+    #featuredscnt {
+        height: 200px;
+       
+        display: none;
+    }
+
+    #powered {
+        display: none;
+    }
+
+    
+
+    #footer {
+        height: 284px !important;
+        flex-direction: column  !important;
+    }
+
+    .footeroptions {
+        margin-left: 15px !important;
+    }
+
+    #firstline {
+        height: 70%;
+        width: 88% !important;
+    } */
+
+
+}
+
+
+@media screen and (max-width: 380px){
+
+    
+
+    #firstline {
+        height: 70%;
+        width: 88% !important;
+    }
+
+    #logo {
+        margin-left: 13px !important;
+        width: 160px !important;
+    }
+
+    #madeinrigel {
+        margin-right: 10px !important;
+        left: 150px !important;
+    }
+
+    #dsctext {
+        font-size: 25px !important;
+    }
+
+    #fistlinetext {
+        font-size: 22px !important;
+    }
+
+    #rigelX2 {
+        left: 20px !important;
+        margin-top: 5px !important;
+        width: 200px !important;
+    }
+
+    #rigeltext2 {
+        left: 5px !important;
+    }
+
+    #whyrigel {
+        margin-top: -40px !important;
+        height: 620px !important;
+    }
+
+    #aboutcnttext {
+        font-size: 14.5px;
+    }
+
+    #aboutcnt {
+        margin-left: 12px !important;
+        width: 95% !important;
+    }
+
+    #console {
+        position: absolute;
+        right: 20px !important;
+        top: -40px !important;
+        height: 250px !important;
+        width: 320px !important;
+    }
+
+    #consoledscnt {
+        height: 240px;
+        width: 330px !important;
+    }
+
+    #dscnttext {
+        font-size: 14px !important;
+    }
+
+    #dark1 {
+        height: 65%;
+        width: 360px !important;
+    }
+
+    #rigelX3 {
+        top: 55px !important;
+        height: 40px !important;
+        width: 150px !important;
+    }
+
+    #darkMode {
+        height: 212px !important;
+        width: 320px !important;
+        position: absolute;
+        right: 24px !important;
+        top: 315px !important;
+    }
+
+    #darkdscnt {
+        width: 363px !important;
+    }
+
+    .contents {
+        height: 100%;
+        width: 110px !important;
+    }
+
+    #madeinrigel {
+        left: -85px !important;
+    }
+
+    #contenttext {
+        display: block;
+        color: rgb(22, 133, 243);
+        font-size: 15px !important;
+    }
+
+    #rigel {
+       
+        width: 82.46px !important;
+    }
+
+    #stylemgr2 {
+        left: 145px !important;
+        top: 125px !important;
+        width: 170px;
+        height: 420px;
+    }
+
+    #stylemgr {
+        position: absolute;
+        left: 30px !important;
+        top: 30px !important;
+        box-shadow: 0 0 5px rgb(0 0 0 / 35%), 0 0 15px rgb(0 0 0 / 10%);
+        border-radius: 5px;
+        width: 170px;
+        height: 420px;
+    }
+
+    #container {
+        overflow-x: clip;
+    }
+
+    #darkdsctext {
+        font-family: 'Poppins';
+        font-size: 14px;
+    }
+
+
+
+ 
+}
+
+
+
+
+
+

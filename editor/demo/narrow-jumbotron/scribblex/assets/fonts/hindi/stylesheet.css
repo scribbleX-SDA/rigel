@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'DevLys 260 Wide';
+    src: url('DevLys-260Wide.eot');
+    src: url('DevLys-260Wide.eot?#iefix') format('embedded-opentype'),
+        url('DevLys-260Wide.woff2') format('woff2'),
+        url('DevLys-260Wide.woff') format('woff'),
+        url('DevLys-260Wide.ttf') format('truetype'),
+        url('DevLys-260Wide.svg#DevLys-260Wide') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

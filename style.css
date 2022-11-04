@@ -1,0 +1,116 @@
+*{cursor: default;}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: block;
+    max-height: max-content;
+}
+
+#heading{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 25px;
+}
+
+#logo{
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#editorPreview{
+    width: 80%;
+    max-width: 800px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#poweredBySLX{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Montserrat';
+}
+
+.topicTitle{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Poppins';
+    font-size: 20px;
+    width: 80%;
+}
+
+.topicDesc{
+    font-family: 'Poppins';
+    position: absolute;
+    transform: translateX(-50%);
+    width: 80%;
+    font-size: 15px;
+}
+
+#elementsImage{
+    height: 80%;
+    max-height: 500px;
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#managerImage{
+    height: 80%;
+    max-height: 500px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}
+
+#genCodeImage{
+    width: 80%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}
+
+#editorButton{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Poppins';
+    outline: 2px solid black;
+    outline-offset: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../assets/favicon/ms-icon-144x144.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&family=Montserrat&family=Raleway:wght@300;400;900&family=Source+Serif+Pro:wght@900&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <span id="conhead">Contact<br><a href="https://www.scribblex.net"><img src="../assets/logos/scribblex.png" alt="ScribbleX" id="logo"></a></span>
+    </div>
+    <div class="container">
+        <form id="contact-form">
+            <p></p>
+            <p>My <label for="your-name">name</label> is <input type="text" name="your-name" id="your-name" minlength="3" placeholder="(your name here)" required> and </p>
+            <p>my <label for="email">email address</label> is <input type="email" name="your-email" id="email" placeholder="(your email address)" required>
+            </p>
+            <p> I have a <label for="your-message">message</label> for you, </p>
+            <p>
+                <textarea name="your-message" id="your-message" placeholder="(your msg here)" class="expanding" required></textarea>
+            </p>
+            <p>
+                <button type="submit" onclick="sendMessage();">
+                    <svg version="1.1" class="send-icn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="36px" viewBox="0 0 100 36" enable-background="new 0 0 100 36" xml:space="preserve">
+                        <path d="M100,0L100,0 M23.8,7.1L100,0L40.9,36l-4.7-7.5L22,34.8l-4-11L0,30.5L16.4,8.7l5.4,15L23,7L23.8,7.1z M16.8,20.4l-1.5-4.3
+                    l-5.1,6.7L16.8,20.4z M34.4,25.4l-8.1-13.1L25,29.6L34.4,25.4z M35.2,13.2l8.1,13.1L70,9.9L35.2,13.2z" />
+                    </svg>
+                    <small>send</small>
+                </button>
+            </p>
+        </form>
+        <small class='website'>Vist <a href='https://www.scribblex.net/' target='_blank'>scribblex.net</a> for our home page </small>
+        <small class="contactEmail contact">Email: <a href="mailto:contact@scribblex.net">contact@scribblex.net</a></small>
+        <small class="linkedin contact">LinkedIn: <a href="https://www.linkedin.com/company/scribblex">scribblex</a></small>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
