@@ -1,15 +1,4 @@
-/*
-Animate on scroll
-The edited page should include the aos library https://github.com/michalsnik/aos
 
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-  <script>
-    AOS.init();
-  </script>
-*/ 
 //clean aos classes on save
 $(window).on("rigel.getHtml.before", function(event, doc) {
 	$("[data-aos]", doc).removeClass("aos-init aos-animate");
