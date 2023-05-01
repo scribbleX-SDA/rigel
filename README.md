@@ -32,23 +32,23 @@ Visit the home page here: https://rigel.scribblex.net
 ---
 # Screenshots
 
-![Rigel - Open source website builder](https://rigel.scribblex.net/editorpreview.png)
+![Rigel - Open source website builder](./editorpreview.png)
 Rigel: Open source web builder. (Lignt Mode)
 
 
-![Rigel, The Open source website builder. Made by ScribbleX](https://rigel.scribblex.net/darkMode.png)
+![Rigel, The Open source website builder. Made by ScribbleX](./darkMode.png)
 Rigel: Open source web builder. (Dark Mode)
 
 
-![Rigel (Open Source website builder)](https://rigel.scribblex.net/elements.png)
+![Rigel (Open Source website builder)](./elements.png)
 Pre-defined Elements.
 
 
-![The Open source website builder - Rigel - Powered by ScribbleX](https://rigel.scribblex.net/manager.png)
+![The Open source website builder - Rigel - Powered by ScribbleX](./manager.png)
 Style Manager for the elements.
 
 
-![Rigel Style Manager](https://rigel.scribblex.net/stylemgr.png)
+![Rigel Style Manager](./stylemgr.png)
 Style Manager to Support Element Styling without code.
 
 ---
